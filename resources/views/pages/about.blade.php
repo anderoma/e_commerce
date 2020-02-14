@@ -23,7 +23,7 @@
     
       <div class="carousel-inner" style="height:500px">
         <div class="carousel-item active">
-          <img src="https://images.pexels.com/photos/1884583/pexels-photo-1884583.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          <img class="img-fluid center-block" src="https://images.pexels.com/photos/1884583/pexels-photo-1884583.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="Banner" height="800px" width="auto">
             
           <div class="carousel-caption">
