@@ -1,16 +1,10 @@
-#breadcrumb-list .breadcrumb-current {
-  background-color: #000;
-  color: #ddd;
-}
 
-.breadcrumb >.active a {
-  color: black;
-}
+
 .breadcrumb{
-  color: white;
+  background-color: white;
 }
 
-a{
+.no-decoration{
   text-decoration: none; 
   color: gray;
 }

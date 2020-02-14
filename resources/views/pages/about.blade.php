@@ -3,22 +3,20 @@
 @section ('content')
   <div class="container">
     <!-- BREADCRUMB -->
-    <nav class="my-5">
+    <nav class="my-2">
       <div class="row">
         <div class="col-12">
           <!-- Breadcrumb -->
           <ol class="breadcrumb mb-0 font-size-xs text-gray-400">
             <li class="breadcrumb-item">
-              <a class="text-gray-400 no-decoration" href="index.html">Home</a>
+              <a class="text-gray-400 no-decoration" href="/">Accueil</a>
             </li>
             <li class="breadcrumb-item active">
-              About Us
+              À propos
             </li>
           </ol>
-
         </div>
       </div>
-      
     </nav>
 
     <!-- BANNER -->
@@ -32,7 +30,7 @@
             <div class="container d-flex flex-column">
               <div class="row align-items-center justify-content-end" style="min-height: 550px;">
                 <div class="col-12 text-center text-white">
-                  <h1 class="mb-0 text-center text-white">
+                  <h1 class="mb-5 pb-5 text-center text-white">
                     We believe we can all make a stylish.
                   </h1>
 
