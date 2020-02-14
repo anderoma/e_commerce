@@ -9,7 +9,7 @@
         <a class="nav-link" href="#">Acheter <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">À propos</a>
+        <a class="nav-link" href="/about">À propos</a>
       </li>
       
     </ul>
