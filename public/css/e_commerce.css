@@ -1,4 +1,19 @@
+#breadcrumb-list .breadcrumb-current {
+  background-color: #000;
+  color: #ddd;
+}
 
+.breadcrumb >.active a {
+  color: black;
+}
+.breadcrumb{
+  color: white;
+}
+
+a{
+  text-decoration: none; 
+  color: gray;
+}
 
 footer{
   padding-top:50px;
