@@ -11,7 +11,7 @@
             <li class="breadcrumb-item">
               <a class="text-gray-400 no-decoration" href="/">Accueil</a>
             </li>
-            <li class="breadcrumb-item active no-decoration">
+            <li class="breadcrumb-item active">
               À propos
             </li>
           </ol>
