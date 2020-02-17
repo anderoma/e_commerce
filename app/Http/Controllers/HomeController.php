@@ -23,7 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        session()->flash('message', 'your message');
+        session()->flash('flash_notification.success', 'Tu es connecté');
         return view('pages/home');
     }
 }
