@@ -34,8 +34,14 @@
       @endcomponent
 
     </header>
+    <div id="app">
+      @include('layout.flash-message')
 
-    @yield ('content')
+      @yield('content')
+    </div>
+
+    <!-- Scripts -->
+    <script src="/js/app.js"></script>
 
     @component('layout.components.footer')
     @endcomponent
