@@ -8,12 +8,12 @@
 
     <!-- Bootsrap -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <script src="/bootstrap/js/jquery.min.js"></script>
-    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
-    
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    
+  <!-- CSRF Token -->
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+
+ 
     <!-- Personalized -->
     <link href="/css/e_commerce.css" rel="stylesheet">
   </head>
@@ -32,6 +32,10 @@
 
     @component('layout.components.footer')
     @endcomponent
-    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
   </body>
 </html>
