@@ -22,8 +22,12 @@ class HomeController extends Controller
      * @return \Illuminate\Contracts\Support\Renderable
      */
     public function index()
-    {
-        session()->flash('flash_notification.success', 'Tu es connecté');
+    {   
+        if (Auth::check()) 
+        {
+            Redirect::to('/')->with('success', 'Profile updated!');
+        }
         return view('pages/home');
+    
     }
 }
