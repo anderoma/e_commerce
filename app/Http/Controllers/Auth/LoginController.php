@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Auth\Events\Login;
+use Redirect;
 
 class LoginController extends Controller
 {
@@ -27,8 +28,10 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
-
+    protected function redirectTo()
+    {
+        Redirect::to('/')-> with('success','Item created successfully!');
+    }
     /**
      * Create a new controller instance.
      *
