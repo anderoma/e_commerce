@@ -30,7 +30,7 @@ class LoginController extends Controller
      */
     protected function redirectTo()
     {
-        Redirect::to('/')-> with('success','Item created successfully!');
+        Redirect::to('/')-> with('success','Tu es bien connecté!');
     }
     /**
      * Create a new controller instance.
