@@ -1,7 +1,8 @@
 @extends ('layout.layout')
 
 @section ('content')
-  <div class="container py-5">
+<div class="album py-5 bg-light">
+  <div class="container">
     <h3 class="text-center">Produits</h3>
     <div class="row">
       @foreach($products as $product)
@@ -25,8 +26,9 @@
       </div>
     
       @endforeach
-      </div>
-      </div>
-
+      
+    </div>
+  </div>
+</div>
 
 @endsection
