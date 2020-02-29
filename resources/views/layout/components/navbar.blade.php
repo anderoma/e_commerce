@@ -15,6 +15,15 @@
 
     <!-- Right Side Of Navbar -->
     <ul class="navbar-nav ml-auto">
+    <div class="product_list_header">
+        <form action="#" method="post" class="last">
+            <fieldset>
+                <input type="hidden" name="cmd" value="_cart" />
+                <input type="hidden" name="display" value="1" />
+                <input type="submit" name="submit" value="View your cart" class="button" />
+            </fieldset>
+        </form>
+    </div>
       <!-- Authentication Links -->
       @guest
         <li class="nav-item">

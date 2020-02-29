@@ -1,5 +1,6 @@
 @extends('layout.layout')
 @section('content')
+  <div class="container py-5">
     <div class="row margin-top">
         <div class="col-md-11 col-md-offset-1">
             <div class="agileinfo_single">
@@ -40,5 +41,6 @@
                 <div class="clearfix"> </div>
             </div>
         </div>
+    </div>
     </div>
 @stop
